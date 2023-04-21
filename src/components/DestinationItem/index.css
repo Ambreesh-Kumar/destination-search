@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.destination-main-container {
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.image {
+  height: 25vh;
+  width: 20vw;
+}
+
+.destinationName {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 17px;
+  color: black;
+}
+@media (max-width: 576px) {
+  .image {
+    width: 40vw;
+  }
+}
